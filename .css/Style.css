@@ -1,0 +1,64 @@
+/* =========================
+   MAIN PAGE
+========================= */
+
+.main {
+    padding-top: 1rem;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+section[data-testid="stSidebar"] {
+    background-color: #1f2937;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 10px;
+    height: 45px;
+    font-weight: 600;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #1d4ed8;
+}
+
+/* =========================
+   FILE UPLOADER
+========================= */
+
+div[data-testid="stFileUploader"] {
+    border: 2px dashed #3b82f6;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: rgba(255,255,255,0.05);
+}
+
+/* =========================
+   CHAT INPUT
+========================= */
+
+div[data-testid="stChatInput"] {
+    border-radius: 12px;
+}
+
+/* =========================
+   CHAT MESSAGES
+========================= */
+
+.stChatMessage {
+    border-radius: 12px;
+}
