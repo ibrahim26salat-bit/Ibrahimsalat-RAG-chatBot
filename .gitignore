@@ -1,0 +1,29 @@
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# FAISS Database
+database/*
+!database/.gitkeep
+
+# Uploaded PDFs
+data/*
+!data/.gitkeep
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
